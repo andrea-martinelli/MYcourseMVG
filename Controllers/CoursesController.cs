@@ -16,7 +16,8 @@ namespace MYcourse.Controllers
     
         public IActionResult Index()
         {
-            return Content("Sono Index");
+        //  return Content("Sono index");
+            return View();
         }
 
         public IActionResult Error()
